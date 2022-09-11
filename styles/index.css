@@ -1,1 +1,26 @@
 @import url(../fonts/inter/inter.css);
+
+
+@import url(../blocks/page.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: 'inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+}
