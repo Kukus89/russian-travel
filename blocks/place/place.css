@@ -1,0 +1,13 @@
+.place {
+  margin: auto;
+  max-width: 984px;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, max-content);
+  grid-template-areas:
+  "top-left top-right"
+  "bottom-left bottom-right";
+  column-gap: 40px;
+  row-gap: 48px;
+}
