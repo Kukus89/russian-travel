@@ -1,0 +1,5 @@
+.lead__img-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}

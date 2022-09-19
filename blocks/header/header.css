@@ -1,9 +1,6 @@
 .header {
-  display: grid;
-  grid-template-columns: 100px 100px;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: flex-end;
   padding: 28px 48px 0;
   outline: 1px solid red;
+  display: flex;
+  justify-content: space-between;
 }
