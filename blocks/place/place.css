@@ -3,8 +3,8 @@
   max-width: 984px;
   padding-top: 80px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, max-content);
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-template-rows: repeat(2, min-contentну);
   grid-template-areas:
   "top-left top-right"
   "bottom-left bottom-right";
