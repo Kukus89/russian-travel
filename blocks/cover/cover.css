@@ -6,3 +6,9 @@
   margin: 0 auto;
   flex-direction: column;
 }
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding-top: 90px;
+  }
+ }
