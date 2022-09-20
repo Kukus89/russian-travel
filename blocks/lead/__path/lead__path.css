@@ -1,5 +1,7 @@
 .lead__path {
+  padding-top: 90px;
   max-width: 98%;
-  position: absolute;
-  top: 10%;
+  grid-row: 1/2;
+  grid-column: 1/2;
+justify-self: center;
 }

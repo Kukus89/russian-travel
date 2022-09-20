@@ -1,10 +1,8 @@
 .place__website {
-  grid-area: top-right;
   font-style: normal;
   color: #FFFFFF;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: underline;
   align-self: end;
 }

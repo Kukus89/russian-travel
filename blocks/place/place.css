@@ -4,10 +4,7 @@
   padding-top: 80px;
   display: grid;
   grid-template-columns: repeat(2, minmax(300px, 1fr));
-  grid-template-rows: repeat(2, min-contentну);
-  grid-template-areas:
-  "top-left top-right"
-  "bottom-left bottom-right";
+  grid-template-rows: repeat(3, min-content);
   column-gap: 40px;
   row-gap: 48px;
 }

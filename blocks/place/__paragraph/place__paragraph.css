@@ -1,6 +1,12 @@
 .place__paragraph {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2. 300px);
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  row-gap: 28px;
 }

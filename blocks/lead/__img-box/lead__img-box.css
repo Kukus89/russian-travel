@@ -1,5 +1,7 @@
 .lead__img-box {
-  display: flex;
-  justify-content: center;
+  padding-top: 64px;
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-direction: column;
   position: relative;
 }

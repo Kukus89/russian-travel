@@ -6,7 +6,6 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: minmax(min-content, 1fr) minmax(min-content, 1fr);
-  flex-direction: column;
   justify-content: center;
-  gap: 5%
+  gap: 32px;
 }
