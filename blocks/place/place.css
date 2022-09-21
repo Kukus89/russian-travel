@@ -3,7 +3,8 @@
   margin: auto;
   display: grid;
   grid-template-columns: minmax(min-content, 460px)  minmax(min-content, 1fr);
-  grid-template-rows: repeat(3, min-content);
+  grid-template-rows: repeat(2, min-content);
+  grid-auto-rows:min-content;
   column-gap: 40px;
   row-gap: 48px;
 }
@@ -25,5 +26,13 @@
     grid-template-columns: minmax(min-content, 340px)  minmax(min-content, 1fr);
     column-gap: 28px;
     padding-top: 73px;
+  }
+ }
+
+ @media screen and (max-width: 320px) {
+  .place {
+    padding-top: 50px;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
   }
  }

@@ -6,3 +6,11 @@
   line-height: 22px;
   align-self: end;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    padding: 0px 16px 0;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}

@@ -1,11 +1,17 @@
 .cover__background {
   background-image: url("/images/background_bottom.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   aspect-ratio: 1184/740;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: minmax(min-content, 1fr) minmax(min-content, 1fr);
+  grid-template-rows: 4fr 3fr;
   justify-content: center;
   gap: 32px;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    gap: 16px;
+  }
 }
