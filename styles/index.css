@@ -1,3 +1,4 @@
+@import url(../blocks/body/body.css);
 @import url(../styles/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -37,13 +38,6 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 
-
-.body {
-  font-family: 'inter', 'Helvetica Neue', Arial, sans-serif;
+p,  h1,  h2,  h3, h4 {
   margin: 0;
 }
-
-p, h1, h2, h3, h4 {
-  margin: 0;
-}
-
