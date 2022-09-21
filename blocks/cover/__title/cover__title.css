@@ -10,15 +10,14 @@
   z-index: 3;
   align-self: end;
   justify-self: center;
-  text-decoration: none;
-  color: #ffffff;
+
 }
 
 .cover__title:hover~.cover__overlay {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .cover__title {
     font-weight: 900;
     font-size: 32px;

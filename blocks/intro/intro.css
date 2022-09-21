@@ -8,10 +8,10 @@
   .intro {
     padding: 88px 24px 0;
   }
- }
+}
 
- @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .intro {
     padding: 64px 16px 0;
   }
- }
+}

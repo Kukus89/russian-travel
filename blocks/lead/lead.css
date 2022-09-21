@@ -5,22 +5,22 @@
   flex-direction: column;
   margin: auto;
   align-items: center;
- }
+}
 
- @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .lead {
     padding: 48px 48px 0;
   }
- }
+}
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .lead {
     padding: 48px 0 0;
   }
- }
+}
 
- @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .lead {
     padding: 48px 0 0;
   }
- }
+}
