@@ -11,6 +11,7 @@
   z-index: 4;
   justify-self: center;
   align-self: flex-start;
+  color: #FFFFFF
 }
 
 @media screen and (max-width: 600px) {
